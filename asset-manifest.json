@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Fair-Share/static/css/main.8cc371f6.chunk.css",
+    "main.js": "/Fair-Share/static/js/main.d5c4d951.chunk.js",
+    "main.js.map": "/Fair-Share/static/js/main.d5c4d951.chunk.js.map",
+    "runtime-main.js": "/Fair-Share/static/js/runtime-main.c98179a6.js",
+    "runtime-main.js.map": "/Fair-Share/static/js/runtime-main.c98179a6.js.map",
+    "static/js/2.18bfc58d.chunk.js": "/Fair-Share/static/js/2.18bfc58d.chunk.js",
+    "static/js/2.18bfc58d.chunk.js.map": "/Fair-Share/static/js/2.18bfc58d.chunk.js.map",
+    "static/js/3.0e19615a.chunk.js": "/Fair-Share/static/js/3.0e19615a.chunk.js",
+    "static/js/3.0e19615a.chunk.js.map": "/Fair-Share/static/js/3.0e19615a.chunk.js.map",
+    "index.html": "/Fair-Share/index.html",
+    "static/css/main.8cc371f6.chunk.css.map": "/Fair-Share/static/css/main.8cc371f6.chunk.css.map",
+    "static/js/2.18bfc58d.chunk.js.LICENSE.txt": "/Fair-Share/static/js/2.18bfc58d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c98179a6.js",
+    "static/js/2.18bfc58d.chunk.js",
+    "static/css/main.8cc371f6.chunk.css",
+    "static/js/main.d5c4d951.chunk.js"
+  ]
+}
