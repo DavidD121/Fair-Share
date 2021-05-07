@@ -1,0 +1,37 @@
+.avgbar {
+
+}
+
+.bar {
+  width: 100px;
+  background-color: rgb(210,210,210);
+  border-radius: 25px;
+  transform: rotate(180deg);
+  margin:auto;
+}
+
+.meter {
+  width: inherit;
+  background-color: #5FD4A8;
+  bottom:0px;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.filled {
+  border-radius: 25px;
+}
+
+.label {
+  text-align: center;
+}
+
+.meter-label {
+  transform: rotate(180deg);
+  position: relative;
+  text-align: center;
+  overflow: hide;
+}
+
+h2 {
+  margin: 0;
+}
