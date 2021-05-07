@@ -39,14 +39,14 @@ function App() {
       <header>
         <Router>
         <div className="nav">
-            <Link className="nav-link" to={'/'}><div className="nav-text">Home</div></Link>
-            <Link className="nav-link" to={'/shopping/'}><div className="nav-text">Shopping</div></Link>
-            <Link className="nav-link" to={'/payments/'}><div className="nav-text">Payments</div></Link>
+            <Link className="nav-link" to={'/Fair-Share/'}><div className="nav-text">Home</div></Link>
+            <Link className="nav-link" to={'/Fair-Share/shopping/'}><div className="nav-text">Shopping</div></Link>
+            <Link className="nav-link" to={'/Fair-Share/payments/'}><div className="nav-text">Payments</div></Link>
         </div>
           <Switch>
-            <Route path='/' exact component={Home} />
-            <Route path='/payments' component={Payments} />
-            <Route path='/shopping' component={Shopping} />
+            <Route path='/Fair-Share/' exact component={Home} />
+            <Route path='/Fair-Share/payments' component={Payments} />
+            <Route path='/Fair-Share/shopping' component={Shopping} />
           </Switch>
         </Router>
       </header>
@@ -91,7 +91,7 @@ const barData = {
   }
 
   function balanceClicked() {
-    var message = "David owes Rob X\nBlake owes Rob Y\n\nPlease pay each other accordingly and press OK, if you cannot pay at the moment, press Cancel";
+    var message = "David owes Rob X\nBlake owes Rob Y\n*UNDER DEVELOPMENT*\nPlease pay each other accordingly and press OK, if you cannot pay at the moment, press Cancel";
     if(window.confirm(message)) {
       roommateAmounts["David"] = total/3;
       roommateAmounts["Blake"] = total/3;
@@ -291,7 +291,7 @@ function Shopping() {
             <label for="description">Title: </label>
             <input required type="text" name="description" id="description"/>
           </div>
-          <button className="add-expense-div" onClick={addList}>Add List</button>
+          <button className="add-expense-div" onClick={addList}>Add</button>
         </form>
       </div>
     </div>
